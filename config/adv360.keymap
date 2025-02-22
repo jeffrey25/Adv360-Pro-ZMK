@@ -78,11 +78,11 @@
 
         symbol {
             bindings = <
-&kp LS(EXCLAMATION)  &trans     &trans     &trans          &trans      &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans     &trans     &trans          &trans      &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp HASH             &kp LCTRL  &kp EQUAL  &kp UNDERSCORE  &kp DOLLAR  &kp ASTERISK  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans     &trans     &trans          &trans      &trans                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans     &trans     &trans          &trans                    &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp LS(EXCLAMATION)  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COMMA     &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans     &trans                &trans                 &trans         &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp HASH             &kp LCTRL  &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR     &kp ASTERISK  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans     &trans                &trans                 &trans         &trans                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans     &trans                &trans                 &trans                       &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
